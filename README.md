@@ -10,13 +10,28 @@ This session is intended for users with basic knowledge of the Python programmin
 
 ### Requirements
 
-Some basic Python programming knowledge is required to fully understand the example code. Consider the working through [Intro to Python(https://git.dartmouth.edu/lib-digital-strategies/RDS/workshops/computational-tools/intro-to-python] prior to this workshop.
+Some basic Python programming knowledge is required to fully understand the example code. Consider working through [Intro to Python](https://git.dartmouth.edu/lib-digital-strategies/RDS/workshops/computational-tools/intro-to-python) and [Let there be Data! APIs in Python](https://git.dartmouth.edu/lib-digital-strategies/RDS/workshops/computational-tools/apis-in-python) prior to this workshop.
 
 The requirements for the Python code can be installed using the following command:
 
 ```
 pip install -r requirements.txt
 ```
+
+### OpenAI API access
+
+To get the most out of the examples, you will need an OpenAI API key. You can sign up for their API [here](https://openai.com/blog/openai-api).
+
+> **Note**: OpenAI's API is a billed service that charges per input and output token (a token roughly corresponds to a 3/4 of a word). You can find their [pricing here](https://openai.com/pricing). The examples in this workshop use GPT 3.5. Running all the example code *once* costs about XX USD (as of November 2023). **Make sure you set appropriate usage limits in your OpenAI account to avoid surprise charges!**
+
+Once you have obtained a key, create a new file `secrets.env` in the repository root. Add the following line to the file and save it:
+
+```
+OPENAI_API_KEY="<your_key_here>"
+```
+
+Replace everything between and including the `<>` with your own API key.
+
 
 ### Usage
 
@@ -48,17 +63,3 @@ If you run into any trouble working with these materials, have some questions ab
 </table>
 
 Except where otherwise noted, the example programs are made available under the OSI-approved MIT license.
-
-
-
-
-## Getting started
-
-
-
-
-```
-CMAKE_ARGS="-DLLAMA_METAL=on" pip install llama-cpp-python
-```
-
-[Instructions for Mac](https://github.com/abetlen/llama-cpp-python/blob/main/docs/install/macos.md)
