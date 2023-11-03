@@ -22,7 +22,7 @@ pip install -r requirements.txt
 
 To get the most out of the examples, you will need an OpenAI API key. You can sign up for their API [here](https://openai.com/blog/openai-api).
 
-> **Note**: OpenAI's API is a billed service that charges per input and output token (a token roughly corresponds to a 3/4 of a word). You can find their [pricing here](https://openai.com/pricing). The examples in this workshop use GPT 3.5. Running all the example code *once* costs about XX USD (as of November 2023). **Make sure you set appropriate usage limits in your OpenAI account to avoid surprise charges!**
+> **Note**: OpenAI's API is a billed service that charges per input and output token (a token roughly corresponds to a 3/4 of a word). You can find their [pricing here](https://openai.com/pricing). The examples in this workshop use GPT 3.5. Running all the example code *once* costs less than 0.5 USD (as of November 2023). **Make sure you set appropriate usage limits in your OpenAI account to avoid surprise charges!**
 
 Once you have obtained a key, create a new file `secrets.env` in the repository root. Add the following line to the file and save it:
 
