@@ -166,3 +166,5 @@ secrets.env
 db
 
 models/
+
+docs/*.pdf
